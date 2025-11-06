@@ -8,7 +8,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Audrey Docs",
+      title: 'Audrey Docs',
+			description: 'The documentation site for Audrey, the voice moderation Discord bot.',
 			logo: {
 				src: './src/assets/audrey.png',
 				alt: 'Audrey'
