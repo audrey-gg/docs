@@ -42,6 +42,9 @@ export default defineConfig({
           autogenerate: { directory: "features" },
         },
       ],
+      editLink: {
+        baseUrl: 'https://github.com/audrey-gg/docs/edit/main/',
+      },
     }),
   ],
 
