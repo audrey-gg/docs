@@ -32,14 +32,17 @@ export default defineConfig({
         {
           label: "Guides",
           autogenerate: { directory: "guides" },
-          // items: [
-          // 	// Each item here is one entry in the navigation menu.
-          // 	{ label: 'Example Guide', slug: 'guides/example' },
-          // ],
         },
         {
           label: "Features",
           autogenerate: { directory: "features" },
+        },
+        {
+          label: "Legal",
+          items: [
+            { label: 'Privacy Policy', link: 'https://audrey.gg/privacy' },
+            { label: 'Terms of Service', link: 'https://audrey.gg/terms' },
+          ],
         },
       ],
       editLink: {
