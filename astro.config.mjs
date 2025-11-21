@@ -29,10 +29,7 @@ export default defineConfig({
         },
       ],
       sidebar: [
-        {
-          label: "Guides",
-          autogenerate: { directory: "guides" },
-        },
+        { label: 'Getting Started', slug: 'getting-started' },
         {
           label: "Features",
           autogenerate: { directory: "features" },
@@ -42,6 +39,13 @@ export default defineConfig({
           items: [
             { label: 'Privacy Policy', link: 'https://audrey.gg/privacy' },
             { label: 'Terms of Service', link: 'https://audrey.gg/terms' },
+          ],
+        },
+        {
+          label: "Other",
+          items: [
+            { label: 'Credits', slug: 'credits' },
+            { label: 'Frequently Asked Questions', link: 'https://audrey.gg/faq' },
           ],
         },
       ],
