@@ -11,6 +11,7 @@ export default defineConfig({
     starlight({
       title: 'Audrey Docs',
 			description: 'The documentation site for Audrey, the voice moderation Discord bot.',
+      favicon: '/favicon.ico',
 			logo: {
 				src: './src/assets/audrey.png',
 				alt: 'Audrey'
